@@ -10,7 +10,34 @@
   <title>Xander's Portfolio | Web Developer</title>
 </head>
 
-<body>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- Need to add all responsiveness classes and styling. -->
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<body class='bg-mid text-lightest'>
+
+  <header class='container-fluid d-flex justify-content-between bg-darkest text-lightest p-4'>
+    <h1>
+      Xander Schwarz
+    </h1>
+    <nav class='navbar'>
+        <ul class='d-flex justify-content-between'>
+          <!-- Check bootstrap pagination. -->
+          <li class='mx-2'><a href='#about-me' class='text-lightest'>About Me</a></li>
+          <li class='mx-2'><a href='#my-work' class='text-lightest'>My Work</a></li>
+          <li class='mx-2'><a href='#contact-me' class='text-lightest'>Contact Me</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <section class='container-fluid bg-darker' id='my-image'>
+    <div class='row justify-content-center'>
+      <div class='col-3'>
+        <img class='img-fluid' src='./assets/images/Profile_Pic.jpg' alt='This is an image of myself in a castle ruin doorway in Inisheer, Ireland.'/>
+      </div>
+    </div>
+  </section>
 
   <!-- Following scripts for Bootstrap and javascript functionality. -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

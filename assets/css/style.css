@@ -1,1 +1,74 @@
-/* Code */
+/* Set color scheme for page. */
+:root {
+    --darkest: #0D1321;
+    --darker: #1D2D44;
+    --mid: #3E5C76;
+    --lighter: #748CAB;
+    --lightest: #F0EBD8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+​ol,
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-inline-start:0px;
+}
+
+/* The following keeps the Bootstrap color class format for ease of use. */
+.bg-darkest {
+    background-color: var(--darkest);
+}
+
+.bg-darker {
+    background-color: var(--darker);
+}
+
+.bg-mid {
+    background-color: var(--mid);
+}
+
+.bg-lighter {
+    background-color: var(--lighter);
+}
+
+.bg-lightest {
+    background-color: var(--lightest);
+}
+
+.text-darkest {
+    color: var(--darkest);
+}
+
+.text-darker {
+    color: var(--darker);
+}
+
+.text-mid {
+    color: var(--mid);
+}
+
+.text-lighter {
+    color: var(--lighter);
+}
+
+.text-lightest {
+    color: var(--lightest);
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#my-image img {
+    /* margin: 50%; */
+}
